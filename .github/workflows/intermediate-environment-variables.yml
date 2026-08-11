@@ -1,5 +1,8 @@
 name: Intermediate environment variables
-on: push
+on:
+  push:
+    paths:
+      - '.github/workflows/intermediate-environment-variables.yml'
 jobs:
   print:
     runs-on: ubuntu-latest
